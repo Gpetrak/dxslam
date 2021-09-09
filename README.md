@@ -65,6 +65,9 @@ This will create **libDXSLAM.so**  at *lib* folder and the executables **rgbd_tu
   ```
   ./Examples/RGB-D/rgbd_tum Vocabulary/DXSLAM.fbow Examples/RGB-D/TUMX.yaml PATH_TO_SEQUENCE_FOLDER ASSOCIATIONS_FILE OUTPUT/FEATURE/PATH
   ```
+# Note
+If it doesn't find the .so libraries of the system execute the following:
+    export LD_LIBRARY_PATH=lib:Thirdparty/cnpy/build:Thirdparty/g2o/lib:Thirdparty/DBoW2/lib:Thirdparty/fbow/build/src
 
 # 4. Processing your own sequences
 You will need to create a settings file with the calibration of your camera. See the settings file provided for the TUM  RGB-D cameras. We use the calibration model of OpenCV. RGB-D input must be synchronized and depth registered.

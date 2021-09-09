@@ -11,6 +11,7 @@ Examples/ROS/ORB_SLAM2/Stereo
 Examples/ROS/ORB_SLAM2/build/
 Examples/Stereo/stereo_euroc
 Examples/Stereo/stereo_kitti
+Examples
 KeyFrameTrajectory.txt
 Thirdparty/DBoW2/build/
 Thirdparty/DBoW2/lib/
@@ -19,5 +20,7 @@ Thirdparty/g2o/config.h
 Thirdparty/g2o/lib/
 Vocabulary
 build/
+hf-net/model
+hf-net/model.tar.xz
 *~
 lib/
